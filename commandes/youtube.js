@@ -1,4 +1,4 @@
-const { zokou } = require("../framework/zokou");
+const { 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹} = require("../framework/zokou");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
@@ -7,7 +7,7 @@ const ffmpeg = require("fluent-ffmpeg");
 const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
-zokou({
+𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹({
   nomCom: "song",
   categorie: "Search",
   reaction: "💿"
@@ -81,7 +81,7 @@ _*on downloading...*_\n\n`
 
   
 
-zokou({
+𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹({
   nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
