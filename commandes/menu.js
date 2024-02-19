@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*╔═════ •✧✧• ════╗*
+*╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━╮*
 ┃   *Préfix* : ${s.PREFIXE}
 ┃   *Owner* : ${s.OWNER_NAME}
 ┃   *Mode* : ${mode}
@@ -40,14 +40,12 @@ const date = moment().format('DD/MM/YYYY');
 ┃   *Date* : ${date}
 ┃   *Hour* : ${temps}
 ┃   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃   *Plateforme* : ${os.platform()}
-┃   *Développer* : Djalega++ 
-┃  & M๏𝓷keℽ D Lบffy
-*╚═════ •✧✧• ════╝* \n\n`;
+┃
+╰━⊱༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊱━╯ \n\n`;
     
 let menuMsg = `
 👋 Hello ${nomAuteurMessage} 👋
-I'm *${s.NOM}*, a bot developped by team zokou.
+I'm *${s.NOM}*, a bot developped by team 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹.
 
 *List of commands :*
 ◇                             ◇
@@ -68,7 +66,7 @@ I'm *${s.NOM}*, a bot developped by team zokou.
 *»»————— ★ —————««*
 for use a command, insert  ${prefixe}"command_name"
  
- *『ZokouMD*
+ * ━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━
                                                 
 *»»————— ★ —————««*
 `;
@@ -77,7 +75,7 @@ for use a command, insert  ${prefixe}"command_name"
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*, developed By 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -87,7 +85,7 @@ for use a command, insert  ${prefixe}"command_name"
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹, developed By 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
