@@ -1,26 +1,4 @@
-# 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
-
-
-
-𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Zokou is here to assist you.
-
-## Key Features
-
-- **File Download:** Zokou can download audio and video files from links you send, making it easy to share them with your contacts.
-
-- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Zokou. You need the api key from api.lolhuman.xyz; an API key is provided in case you don't have one: `9d05ccc5f58e1cf30937`
-
-- **Group Management:** Zokou offers group management features, such as adding or removing members, configuring rules, and other settings.
-
-- **Text to Img:** The best logos have been selected for your convenience.
-
-## Fun Features
-
-- **Jokes and Riddles:** Zokou comes with a collection of jokes and riddles to liven up your conversations.
-
-- **Inspiring Quotes:** Receive inspiring quotes to motivate you daily.
-
-## Get Zokou
+## Get 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
 
 1. Click on **[Fork](https://github.com/Faouz995/Zokou-2.0-englishV/fork)** to copy the repo to your GitHub account. Make sure to add a star 🌟 to encourage the developers.
 
@@ -46,5 +24,4 @@ Enjoy the diverse features of the WhatsApp Bot Zokou to enhance your conversatio
 ## Developers:
 
 - [**Djalega++**](https://github.com/djalega8000/Zokou-MD/)
-- [**᚛M๏𝓷keℽ D Lบffy᚜**](https://github.com/Faouz995)
 
