@@ -1,4 +1,4 @@
-const { 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹} = require("../framework/zokou");
+const { zokou } = require("../framework/zokou");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
@@ -7,7 +7,7 @@ const ffmpeg = require("fluent-ffmpeg");
 const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
-𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹({
+zokou({
   nomCom: "song",
   categorie: "Search",
   reaction: "💿"
@@ -81,7 +81,7 @@ _*on downloading...*_\n\n`
 
   
 
-𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹({
+zokou({
   nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
@@ -127,7 +127,7 @@ _*On downloading...*_\n\n`
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*Zokou-Md", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*╰━⊱༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊱━╯", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
