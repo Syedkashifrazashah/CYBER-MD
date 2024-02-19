@@ -36,28 +36,29 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     ╰━⊱༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊱━╯/
     /* menuMsg+=`
    ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━╮
-   ||
-   ||     Préfixe : ${s.prefixe}
-   ||      Owner : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
-   ||      Commandes : ${cm.length}
-   ||      Date : ${date}
-   ||      Heure : ${temps}
-   ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Développeurs : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
-   ||
+   ✫
+   ✫   Préfixe : ${s.prefixe}
+   ✫   Owner : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
+   ✫   Commandes : ${cm.length}
+   ✫   Date : ${date}
+   ✫   Heure : ${temps}
+   ✫   Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
+   ✫  Développeurs : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
+   ✫
    ╰━⊱༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊱━╯`;*/
     menuMsg += `
 ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━╮
-║    Préfixe : ${s.PREFIXE}
-║    Owner : ${s.OWNER_NAME}    
-║    Mode : ${mode}
-║    Commandes:${cm.length}
-║    Date : ${date}
-║    Heure : ${temps}
-║    Mémoire : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-║    Plateforme : ${os.platform()}
-║    Développeurs : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
+✫  Préfixe : ${s.PREFIXE}
+✫  Owner : ${s.OWNER_NAME}    
+✫  Mode : ${mode}
+✫  Commandes:${cm.length}
+✫  Date : ${date}
+✫  Heure : ${temps}
+✫  Mémoire : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+✫  Plateforme : ${os.platform()}
+✫  Développeurs : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
 ╰━⊱༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊱━╯ \n\n`;
+
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "💞";
