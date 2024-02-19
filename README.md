@@ -11,15 +11,6 @@
      1. If you don't have a **Heroku** account, click [**here**](https://id.heroku.com/login) to create one.
      2. Click [**here**](https://dashboard.heroku.com/new?template=https://github.com/Faouz995/Zokou-2.0-englishV) to deploy the bot on **Heroku**.
 
-## Contributions
-
-Contributions to Zokou are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-The WhatsApp Bot Zokou is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-Enjoy the diverse features of the WhatsApp Bot Zokou to enhance your conversations and make your WhatsApp experience more interesting!
 
 ## Developers:
 
