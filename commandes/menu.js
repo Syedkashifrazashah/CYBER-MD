@@ -32,43 +32,36 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━╮*
-┃   *Préfix* : ${s.PREFIXE}
-┃   *Owner* : ${s.OWNER_NAME}
-┃   *Mode* : ${mode}
-┃   *Commands* : ${cm.length}
-┃   *Date* : ${date}
-┃   *Hour* : ${temps}
-┃   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃
-╰━⊱༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊱━╯ \n\n`;
+╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━╮
+✫  *Préfix* : ${s.PREFIXE}
+✫   *Owner* : ${s.OWNER_NAME}
+✫   *Mode* : ${mode}
+✫   *Commands* : ${cm.length}
+✫   *Date* : ${date}
+✫   *Hour* : ${temps}
+✫   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+✫
+╰━━━━━━━━━━━━━━━━━━╯\n\n`;
     
 let menuMsg = `
-👋 Hello ${nomAuteurMessage} 👋
-I'm *${s.NOM}*, a bot developped by team 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹.
+🌸🤭- " 𝐀 𝐅ɑkə 𝐒mıɭə 𝐂ɑη ┣𝐥ıdə  𝐌ıɭɭıoηs 𝐎f 𝐓əɑrs ||%❤😚
 
-*List of commands :*
-◇                             ◇
+     ╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴍᴅ ᴍᴇɴᴜ⊱━╮
+
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╔══✵* *${cat}*  *✵ ══╗*`;
+        menuMsg += `╭─━⊱༻${cat}༺⊰━─`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-*✗✪* ${cmd}`;
+✫ ${cmd}`;
         }
         menuMsg += `
-*╚════ ✵ ✵ ═══╝* \n`
+╰━━━━━━━━━━━━━━╯ \n`
     }
 
     menuMsg += `
-◇            ◇
-*»»————— ★ —————««*
-for use a command, insert  ${prefixe}"command_name"
- 
- * ━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━
-                                                
-*»»————— ★ —————««*
+╰━⊱༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊱━╯
 `;
 
    var lien = mybotpic();
