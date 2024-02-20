@@ -1,5 +1,5 @@
 {
-  "name": "Zokou-2.0",
+  "name": "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -12,19 +12,19 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Zokou",
+    "╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━╮",
     "whatsapp",
     "whatsapp-bot",
-    "Djalega++"
+    "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹"
   ],
-  "author": "Faouz995",
+  "author": "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
     "@prevter/tiktok-scraper": "^1.0.0",
     "@types/node": "^18.0.6",
-    "@whiskeysockets/baileys": "github:Faouz995/Baileys",
+    "@whiskeysockets/baileys": "https://github.com/CYBER-WARRIIOR/CYBER-MD",
     "@xaviabot/fb-downloader": "^1.0.14",
     "aptoide-scraper": "^1.0.1",
     "async-g-i-s": "^1.5.0",
