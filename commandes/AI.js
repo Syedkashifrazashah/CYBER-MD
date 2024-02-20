@@ -57,7 +57,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       const response = await axios.get(`https://vihangayt.me/tools/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '*powered by ZOKOU-MD*';
+      let caption = '*powered by 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*';
       
       if (data.status && data.owner && data.data) {
         // Utiliser les données retournées par le service
